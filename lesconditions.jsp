@@ -38,7 +38,13 @@ A = 10</br>
 B = 20</br>
 C = 15</br>
 Oui C est compris entre A et B</p>
-
+reponse exercice 1 :
+ int valeur1 = scanner.nextInt();
+ int valeur2 = scanner.nextInt();
+int valeur3 = scanner.nextInt();
+   if (valeur1 == valeur2 && valeur2 == valeur3) {
+  } else if (valeur1 != valeur2 && valeur2 != valeur3 && valeur1 != valeur3) {
+  } else {
 <h2>Exercice 2 : Pair ou Impair ?</h2>
 <p>Écrivez un programme pour vérifier si un nombre est pair ou impair en utilisant une structure if</p>
 
@@ -46,3 +52,7 @@ Oui C est compris entre A et B</p>
 <p><a href="index.html">Retour au sommaire</a></p>
 </body>
 </html>
+reponse exercice 2:
+ int nombre = scanner.nextInt();
+  if (nombre % 2 == 0) {
+ } else {
